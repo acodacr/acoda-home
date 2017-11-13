@@ -1,6 +1,6 @@
 ---
 title: A.C.O.D.A.
-timezone: UTC
+timezone: America/Guatemala
 collections:
   posts:
     title: Posts
@@ -17,7 +17,7 @@ url: http://acodacr.org
 twitter_username: acodacr
 github_username: acodacr
 author: Infio Acoda
-g_analytics: ''
+g_analytics: 
 disqus_shortname: 
 isolang: es
 close_btn: Close
