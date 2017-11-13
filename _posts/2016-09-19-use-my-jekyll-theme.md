@@ -1,9 +1,12 @@
 ---
+title: Use my jekyll theme
+date: 2016-09-19 20:10:00 Z
+tags:
+- english
+- jekyll
+- theme
 layout: post
-title:  "Use my jekyll theme"
-date:   2016-09-19 22:10:00 +0200
-tags: ['english', 'jekyll', 'theme']
-author: "Lukas Himsel"
+author: Lukas Himsel
 ---
 
 ## Hints

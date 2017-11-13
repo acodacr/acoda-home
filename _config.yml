@@ -1,38 +1,33 @@
-title: "A.C.O.D.A."
-description: "Informacion sobre Defensa Animal Costa Rica"
-about: "Un amigo se adopta no se compra."
-location: "Costa Rica"
+title: A.C.O.D.A.
+timezone: America/Guatemala
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Informacion sobre Defensa Animal Costa Rica
+about: Estamos en Construci&oacute;n
+location: Costa Rica
 email: info@acodacr.org
 baseurl: "/"
-
-url: "http://acodacr.org" # replace by your site's url
+url: http://acodacr.org
 twitter_username: acodacr
-github_username:  acodacr
-author: "Infio Acoda"
-
-# google analytics tracking code, please change the value
-g_analytics: ""
-
-# add your disqus to enable comments
-disqus_shortname:
-
-# add your disqus to enable comments
-disqus_shortname:
-
-# language settings
+github_username: acodacr
+author: Infio Acoda
+g_analytics: 
+disqus_shortname: 
 isolang: es
-close_btn: "Close"
-home_btn: "Home"
-projects_btn: "Projects"
-posts_btn: "Posts"
-imprint_btn: "Imprint"
-name_badge: "an article by"
-rss_badge: "Subscribe feed!"
-
-# build settings
+close_btn: Close
+home_btn: Home
+projects_btn: Projects
+posts_btn: Posts
+imprint_btn: Imprint
+name_badge: an article by
+rss_badge: Subscribe feed!
 markdown: kramdown
 highlighter: rouge
-
 kramdown:
   input: GFM
   hard_wrap: false
@@ -45,19 +40,14 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     tab_width: 4
-
-# third party gems
 gems:
-  - jekyll-paginate
-  - jekyll-gist
-  - jemoji
-
+- jekyll-paginate
+- jekyll-gist
+- jemoji
 whitelist:
-  - jekyll-paginate
-  - jekyll-gist
-  - jemoji
-
-# exclude files
+- jekyll-paginate
+- jekyll-gist
+- jemoji
 exclude:
-  - LICENSE
-  - README.md
+- LICENSE
+- README.md
