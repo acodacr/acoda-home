@@ -3,7 +3,7 @@ description: "Informacion sobre Defensa Animal Costa Rica"
 about: "Un amigo se adopta no se compra."
 location: "Costa Rica"
 email: info@acodacr.org
-baseurl: "/material-theme"
+baseurl: "/"
 
 url: "http://acodacr.org" # replace by your site's url
 twitter_username: acodacr
