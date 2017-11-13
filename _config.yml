@@ -12,7 +12,7 @@ description: Informacion sobre Defensa Animal Costa Rica
 about: Estamos en Construci&oacute;n
 location: Costa Rica
 email: info@acodacr.org
-baseurl: "/"
+baseurl: ""
 url: http://acodacr.org
 twitter_username: acodacr
 github_username: acodacr
