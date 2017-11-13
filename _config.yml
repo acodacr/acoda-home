@@ -15,39 +15,7 @@ baseurl: "/"
 url: http://acodacr.org
 twitter_username: acodacr
 github_username: acodacr
-author: Infio Acoda
+author: Info Acoda
 g_analytics: 
 disqus_shortname: 
 isolang: es
-close_btn: Close
-home_btn: Home
-projects_btn: Projects
-posts_btn: Posts
-imprint_btn: Imprint
-name_badge: an article by
-rss_badge: Subscribe feed!
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    tab_width: 4
-gems:
-- jekyll-paginate
-- jekyll-gist
-- jemoji
-whitelist:
-- jekyll-paginate
-- jekyll-gist
-- jemoji
-exclude:
-- LICENSE
-- README.md
