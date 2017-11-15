@@ -1,0 +1,4 @@
+---
+title: Denuncias
+layout: post
+---

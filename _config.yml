@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  sidebar:
+     title: Sidebar
+     output: true
 description: Informacion sobre Defensa Animal Costa Rica
 about: Estamos en Construci&oacute;n
 location: Costa Rica
@@ -20,3 +23,5 @@ author: Info Acoda
 g_analytics: 
 disqus_shortname: 
 isolang: es
+plugins:
+  - jekyll-sitemap

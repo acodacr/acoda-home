@@ -2,22 +2,36 @@
 <!-- Main -->
 	<section class="wrapper style1">
 		<div class="container">
+            <div class="row double">
+                <div class="4u">
+                    {% include sidebar.html %}
+                </div>
+                <div class="8u skel-cell-important">
+                    <div id="content">
 
-			<!-- Blog -->
-				<section>
-					<header class="major">
-						<h2>{{ page.title }}</h2>
-						<p>Posted {{ page.date | date_to_string }}</p>
-					</header>
-					<div class="row">
-						<div class="8u -2u">
-							<section class="box">
-								<a href="#" class="image left"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-								{{ page.content }}
-							</section>
-						</div>
-					</div>
-				</section>
+                        <!-- Content -->
+
+                        <section>
+                            <header class="major">
+                                <h2>{{ page.title }}</h2>
+                                <p>Posted {{ page.date | date_to_string }}</p>
+                            </header>
+                            <div class="row">
+                                <div class="8u -2u">
+                                    <section class="box">
+                                        <a href="#" class="image left"><img src="{{ site.baseurl }}{{ page.featured }}"
+                                                                            alt=""/></a>
+                                        {{ page.content }}
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Blog -->
+
 
 		</div>
 	</section>

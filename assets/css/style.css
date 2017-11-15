@@ -596,7 +596,7 @@
 			display: block;
 			width: 100%;
 			height: 0.75em;
-			background-color: #37c0fb;
+			background-color: #CE830A;
 			background-image: url("images/bg01.png");
 		}
 
@@ -611,8 +611,9 @@
 			}
 
 				#nav > ul > li a {
-					color: #c0c0c0;
+					color: #CE830A;
 					text-decoration: none;
+					font-size: x-large;
 					border: 0;
 					display: block;
 					padding: 1.5em 0.5em 1.35em 0.5em;
@@ -839,3 +840,19 @@
 			text-align: center;
 			font-size: 0.9em;
 		}
+
+/*Sidebar*/
+
+#sidebar a {
+	color: #CE830A;
+	font-weight: bold;
+	text-decoration: none;
+	border: 0;
+	display: block;
+	padding: 1.5em 0.5em 0.5em 0.5em;
+}
+
+#sidebar a:hover {
+	color: #CE830A;
+
+}

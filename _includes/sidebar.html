@@ -1,14 +1,12 @@
 <div id="sidebar">
-
 	<!-- Sidebar -->
-	{% for post in site.posts offset: 0 limit: 2 %}
 		<section>
-			<h3>{{ post.title }}</h3>
-			{{ post.excerpt }}
-			<footer>
-				<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
-			</footer>
-		</section>
-	{% endfor %}
-	
+            <h3>Actividades</h3>
+            <ul>
+                {% for post in site.sidebar %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+
 </div>
