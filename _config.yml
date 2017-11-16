@@ -1,0 +1,27 @@
+---
+title: A.C.O.D.A.
+timezone: America/Guatemala
+collections:
+  posts:
+    title: Posts
+    output: true
+  sidebar:
+    title: Sidebar
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Informacion sobre Defensa Animal Costa Rica
+about: Estamos en Construci&oacute;n
+location: Costa Rica
+email: info@acodacr.org
+baseurl: 
+url: http://acodacr.org
+twitter_username: acodacr
+github_username: acodacr
+author: Info Acoda
+g_analytics: 
+disqus_shortname: 
+isolang: es
+plugins:
+- jekyll-sitemap
