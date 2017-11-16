@@ -1,6 +1,6 @@
 ---
 title: Use my jekyll theme
-date: 2016-09-19 20:10:00 Z
+date: 2016-09-19 14:10:00 -06:00
 tags:
 - english
 - jekyll
