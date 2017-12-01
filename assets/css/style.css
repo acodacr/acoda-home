@@ -562,11 +562,10 @@
 	#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		background-color: #fff;
-		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
+		background: url("../images/collage.png") 0 0;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+
 	}
 
 		#header h1 {
